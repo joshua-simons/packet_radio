@@ -1,0 +1,3 @@
+#!/bin/bash
+
+echo 'KD2EGT-7>KD2EGT-10,WIDE1-1:=3807.41N/212006.78WbMESSAGE' > tx/msg

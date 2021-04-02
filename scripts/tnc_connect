@@ -1,0 +1,5 @@
+#!/bin/bash
+bluetoothctl pair 34:81:F4:38:99:68
+sudo rfcomm bind 0 34:81:F4:38:99:68 6
+sudo kissattach /dev/rfcomm0 1
+echo "The TNC Connection has been Established and Configured"
